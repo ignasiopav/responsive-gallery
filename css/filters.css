@@ -1,0 +1,47 @@
+.filters {
+    display: flex;
+
+    justify-content: center;
+
+    gap: var(--spacing-small);
+
+    margin-bottom: var(--spacing-large);
+
+    flex-wrap: wrap;
+}
+
+.filter-button {
+    padding: 10px 20px;
+
+    border: none;
+    border-radius: 999px;
+
+    background-color: var(--color-surface);
+    color: var(--color-text);
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.filter-button:hover {
+    background-color: var(--color-accent);
+    color: #ffffff;
+
+    transform: translateY(-2px);
+}
+
+.filter-button.active {
+    background-color: var(--color-accent);
+    color: #ffffff;
+}
+
+.filter-button:focus-visible {
+    outline: 3px solid rgba(37, 99, 235, 0.3);
+    outline-offset: 3px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Gallery</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/filters.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Responsive Gallery</h1>
+        <p>Explore our collection</p>
+    </header>
+
+    <main class="gallery-container">
+
+        <section class="filters">
+            <button
+                class="filter-button active"
+                data-category="all"
+            >
+                All
+            </button>
+
+            <button
+                class="filter-button"
+                data-category="nature"
+            >
+                Nature
+            </button>
+
+            <button
+                class="filter-button"
+                data-category="city"
+            >
+                City
+            </button>
+
+            <button
+                class="filter-button"
+                data-category="animals"
+            >
+                Animals
+            </button>
+
+            <button
+                class="filter-button"
+                data-category="architecture"
+            >
+                Architecture
+            </button>
+        </section>
+
+        <section
+            class="gallery"
+            id="gallery"
+        >
+        </section>
+
+        <div class="load-more-container">
+            <button
+                class="load-more-button"
+                id="load-more"
+            >
+                Load more
+            </button>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Responsive Gallery</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
