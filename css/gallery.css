@@ -131,7 +131,7 @@
     transform: none;
 }
 
-.load-more-spinner {
+/* .load-more-spinner {
     width: 16px;
     height: 16px;
 
@@ -141,7 +141,7 @@
     border-radius: 50%;
 
     animation: spin 0.7s linear infinite;
-}
+} */
 
 @keyframes spin {
     to {
